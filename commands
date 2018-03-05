@@ -1,0 +1,12 @@
+Firsly get connected to your ubuntu system using ssh
+https://mediatemple.net/community/products/dv/204404604/using-ssh-in-putty-
+
+
+then execute the following commands.
+
+sudo apt-get update
+sudo apt-get install xfce4
+sudo apt-get install xrdp
+echo xfce4-session >~/.xsession
+sudo service xrdp restart
+sudo passwd YOURUSERNAME
